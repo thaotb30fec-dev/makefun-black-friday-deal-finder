@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Friday Deal Finder — 44 real deals, checked 27 Nov 2026</title>
+<meta name="description" content="44 real Black Friday and Cyber Monday deals, each checked 27 Nov 2026 at its store or in a named deals source, with sale price, usual price, discount and an honest verdict.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e2a47'/%3E%3Ctext x='16' y='23' font-size='19' font-weight='bold' text-anchor='middle' fill='%23f2a900'%3E%25%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <p class="brand"><a href="#/">Black Friday Deal Finder</a></p>
+    <p class="tagline">44 real deals, checked on Black Friday itself — every price verified at the store or in a named deals source.</p>
+    <p class="checked-badge">Prices checked 27 Nov 2026 &middot; 12:50 UTC</p>
+  </div>
+</header>
+<div class="wrap">
+  <section id="filters" aria-label="Search and filters">
+    <div class="filter-row">
+      <input id="search" type="search" placeholder="Search deals, stores, categories…" aria-label="Search deals" autocomplete="off">
+      <select id="store" aria-label="Filter by store"></select>
+      <select id="min-discount" aria-label="Minimum discount">
+        <option value="0">Any discount</option>
+        <option value="25">25% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+      </select>
+      <select id="sort" aria-label="Sort deals">
+        <option value="discount">Biggest discount first</option>
+        <option value="saving">Biggest saving ($) first</option>
+        <option value="price-asc">Lowest price first</option>
+        <option value="price-desc">Highest price first</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+    <div class="filter-row">
+      <div id="cat-chips" class="chips" role="group" aria-label="Filter by category"></div>
+      <span id="result-count" class="result-count"></span>
+    </div>
+  </section>
+  <main id="app"></main>
+  <footer class="site-footer">
+    <p><strong>How these prices were checked.</strong> Each deal was found and verified on 27 November 2026 by reading the price at the store or in a deals roundup that names the store and the price. Every deal page shows where its price was read and when. Prices move during Black Friday — check the price at checkout before you buy.</p>
+    <p>Discounts are computed from the sale price and the usual price shown on each deal. The verdict on each deal is an honest signal: “Lowest ever” only where a source says so; otherwise by depth of cut, with the evidence written on the deal.</p>
+    <p>Black Friday Deal Finder is an independent guide. It is not affiliated with any store named here.</p>
+  </footer>
+</div>
+</body>
+</html>
