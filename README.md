@@ -1,5 +1,10 @@
 # Black Friday Deal Finder
 
+[![make.fun](https://make.fun/badge/black-friday-deal-finder-01.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+[![rank](https://make.fun/badge/black-friday-deal-finder-01/thaotb30fec-dev/makefun-black-friday-deal-finder/rank.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+[![reward](https://make.fun/badge/black-friday-deal-finder-01/thaotb30fec-dev/makefun-black-friday-deal-finder/reward.svg)](https://make.fun/bounty/black-friday-deal-finder-01)
+
+
 A static deal-finder site of **44 real Black Friday / Cyber Monday 2026 deals**,
 each one checked on 27 November 2026 at its store or in a named deals source.
 Searchable and filterable by category, store and minimum discount, with an
@@ -113,7 +118,7 @@ All are ≤256 KiB, long side ≤1280, short side ≥360, as the brief requires.
    `node cli/makefun.mjs check --kit . --repo <repo> --transcripts <bundle>`
 4. Submit on https://make.fun/bounty/black-friday-deal-finder-01 — the
    entry is signed with the payout wallet in `.makefun/owner.json`
-   (EpJcTtez8XYZ36tbKz27ByaXn17v4HWT26ugf1564fF5). **The wallet signature
+   (5cmSw2uQJRdSuicmWEzKyXcarQU6gAH5s5Js1GFkjBjK). **The wallet signature
    is the one step that needs the wallet owner: the site asks the wallet
    to sign the entry message; without that approval the entry cannot be
    submitted.**
